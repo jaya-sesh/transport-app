@@ -2,13 +2,15 @@ var canvas, backgroundImage;
 
 var database;
 
-var form;
+var form,viewscrn;
+var login=false;
 
-var welcome,signup,signin,user;
+var welcome,signup,signin,user,userready,vtruck;
 
 var allUsers;
 
 var truckInfo;
+var truckarr=[];
 
 var truckRegister;
 
